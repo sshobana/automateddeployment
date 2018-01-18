@@ -1,16 +1,16 @@
 {
     "Parameters": {
         "LambdaFileName": {
-            "Default": "$ stacktemplate/index.zip",
+            "Default": "$ automateddeployment/index.zip",
             "Type": "String"
         },
         
         "LambdaUploadName":{
-              "Default":"$ stacktemplate/lambda_function.zip",
+              "Default":"$ automateddeployment/lambda_function.zip",
               "Type":"String"
          },
          "LambdadeleteName":{
-               "Default":"$ stacktemplate/stack.zip",
+               "Default":"$ automateddeployment/stack.zip",
                "Type":"String"
           }
 
