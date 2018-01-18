@@ -1,0 +1,30 @@
+{
+"Resources" :
+ {
+
+       "lambda" : {
+
+      "Type" : "AWS::CloudFormation::Stack",
+
+      "Properties" : {
+
+          "TemplateURL" : "https://s3.amazonaws.com/testlambdaapi/multiple.json",
+
+        }
+
+     },
+
+       "customauth" : {
+
+      "Type" : "AWS::CloudFormation::Stack",
+
+      "Properties" : {
+
+          "TemplateURL" : "https://s3.amazonaws.com/testlambdaapi/customauth.json",
+
+        }
+
+      },
+
+}
+}
