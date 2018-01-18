@@ -1,16 +1,16 @@
 {
     "Parameters": {
         "LambdaFileName": {
-            "Default": "$ automateddeployment/index.zip",
+            "Default": "https://github.com/sshobana/automateddeployment/blob/master/index.zip",
             "Type": "String"
         },
         
         "LambdaUploadName":{
-              "Default":"$ automateddeployment/lambda_function.zip",
+              "Default":"https://github.com/sshobana/automateddeployment/blob/master/lambda_function.zip",
               "Type":"String"
          },
          "LambdadeleteName":{
-               "Default":"$ automateddeployment/stack.zip",
+               "Default":"https://github.com/sshobana/automateddeployment/blob/master/stack.zip",
                "Type":"String"
           }
 

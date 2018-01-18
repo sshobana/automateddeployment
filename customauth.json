@@ -8,7 +8,7 @@
         },
         "LambdaAuthorizer": {
             "Description": "to specify the zip file",
-            "Default": "node.zip",
+            "Default": "https://github.com/sshobana/automateddeployment/blob/master/node.zip",
             "Type": "String"
         }
     },
