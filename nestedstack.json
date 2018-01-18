@@ -8,7 +8,7 @@
 
       "Properties" : {
 
-          "TemplateURL" : "https://s3.amazonaws.com/testlambdaapi/multiple.json",
+          "TemplateURL" : "automateddeployment/multiple.json ",
 
         }
 
@@ -20,7 +20,7 @@
 
       "Properties" : {
 
-          "TemplateURL" : "https://s3.amazonaws.com/testlambdaapi/customauth.json",
+          "TemplateURL" : "automateddeployment/customauth.json",
 
         }
 
